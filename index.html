@@ -1,3 +1,474 @@
-<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Subhash Kiryana Store</title><style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f7f4;color:#182018}.app{min-height:100vh;background:#f5f7f4}.hero{background:#14532d;color:#fff;padding:28px 18px 34px;border-radius:0 0 28px 28px}.badge{display:inline-block;background:#dcfce7;color:#14532d;padding:6px 10px;border-radius:20px;font-size:12px;font-weight:700}.hero h1{font-size:34px;margin:14px 0 7px}.hero p{margin:0;opacity:.9}.wrap{max-width:850px;margin:auto;padding:18px}.actions{display:flex;gap:10px;margin-top:-12px;position:relative}.btn{flex:1;padding:14px;border-radius:14px;text-align:center;text-decoration:none;font-weight:700;border:1px solid #ddd;background:#fff;color:#14532d}.primary{background:#16a34a;color:#fff;border-color:#16a34a}.section{margin-top:24px}.section h2{font-size:21px;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.card{background:#fff;border:1px solid #e4e8e3;border-radius:16px;padding:17px}.icon{font-size:28px}.card b{display:block;margin-top:8px}.card small{color:#667066}.contact{background:#fff;border-radius:18px;padding:18px;border:1px solid #e4e8e3}.contact a{display:block;padding:10px 0;color:#14532d;font-weight:700;text-decoration:none}.footer{text-align:center;padding:28px 10px;color:#707970;font-size:13px}@media(min-width:650px){.grid{grid-template-columns:repeat(4,1fr)}}
-</style></head><body><main class="app"><header class="hero"><div class="wrap"><span class="badge">आपकी अपनी किराना दुकान</span><h1>Subhash Kiryana Store</h1><p>घर की रोज़मर्रा की जरूरत का सामान — आपके अपने भरोसेमंद स्टोर से।</p></div></header><div class="wrap"><div class="actions"><a class="btn primary" href="tel:9350596509">📞 Call Now</a><a class="btn" href="https://wa.me/919350596509?text=Namaste%20Subhash%20Kiryana%20Store%2C%20mujhe%20samaan%20chahiye. ">💬 WhatsApp Order</a></div><section class="section"><h2>हमारे यहाँ</h2><div class="grid"><div class="card"><div class="icon">🌾</div><b>आटा & चावल</b><small>रोज़मर्रा का राशन</small></div><div class="card"><div class="icon">🫗</div><b>तेल & मसाले</b><small>किचन की जरूरत</small></div><div class="card"><div class="icon">🍪</div><b>बिस्कुट & स्नैक्स</b><small>चाय-नाश्ता सामान</small></div><div class="card"><div class="icon">🥤</div><b>ड्रिंक्स</b><small>ठंडे पेय आदि</small></div></div></section><section class="section"><h2>ऑर्डर / संपर्क</h2><div class="contact"><a href="tel:9350596509">📱 9350596509</a><a href="tel:9416469174">📱 9416469174</a><div style="padding-top:8px;color:#596159">📍 Hathwala Gaon, Julana, Haryana – 126101</div></div></section><section class="section"><h2>क्यों आएँ?</h2><div class="card">✅ रोज़मर्रा का सामान एक ही जगह<br><br>✅ आसान फोन/WhatsApp ऑर्डर<br><br>✅ अपने इलाके की भरोसेमंद किराना दुकान</div></section><div class="footer">© 2026 Subhash Kiryana Store</div></div></main></body></html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Subhash Kiryana Store | Hathwala, Julana</title>
+
+<meta name="description" content="Subhash Kiryana Store - Hathwala Gaon, Julana, Haryana. Grocery, राशन, snacks, drinks, personal care और रोजमर्रा का सामान.">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f7f5;
+  color:#222;
+}
+
+.hero{
+  background:linear-gradient(135deg,#087f3f,#16a05d);
+  color:white;
+  padding:35px 18px;
+  text-align:center;
+}
+
+.hero h1{
+  margin:0 0 10px;
+  font-size:32px;
+}
+
+.hero p{
+  margin:6px 0;
+  font-size:16px;
+}
+
+.buttons{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 20px;
+  border-radius:25px;
+  text-decoration:none;
+  font-weight:bold;
+  background:white;
+  color:#087f3f;
+}
+
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:25px 15px;
+}
+
+h2{
+  text-align:center;
+  color:#087f3f;
+  margin:10px 0 20px;
+}
+
+.categories{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+
+.category{
+  background:white;
+  padding:18px 10px;
+  text-align:center;
+  border-radius:12px;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  font-weight:bold;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+
+.product{
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.product h3{
+  margin:0 0 6px;
+  font-size:16px;
+}
+
+.product p{
+  margin:0;
+  color:#666;
+  font-size:13px;
+}
+
+.contact{
+  margin-top:25px;
+  background:#087f3f;
+  color:white;
+  padding:25px 15px;
+  text-align:center;
+  border-radius:15px;
+}
+
+.contact a{
+  color:white;
+  font-weight:bold;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  color:#666;
+  font-size:13px;
+}
+
+@media(min-width:700px){
+  .categories{
+    grid-template-columns:repeat(4,1fr);
+  }
+
+  .products{
+    grid-template-columns:repeat(4,1fr);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>🛒 Subhash Kiryana Store</h1>
+
+<p>आपके घर की रोज़मर्रा की जरूरत का सामान</p>
+
+<p>📍 Hathwala Gaon, Julana, Haryana – 126101</p>
+
+<div class="buttons">
+
+<a class="btn" href="tel:9350596509">
+📞 Call Now
+</a>
+
+<a class="btn" href="https://wa.me/919350596509?text=Namaste%20Subhash%20Kiryana%20Store%2C%20mujhe%20samaan%20chahiye.">
+💬 WhatsApp
+</a>
+
+</div>
+
+</section>
+
+
+<div class="container">
+
+<h2>📦 हमारी Categories</h2>
+
+<div class="categories">
+
+<div class="category">🌾 आटा, चावल & अनाज</div>
+
+<div class="category">🫘 दालें & बीन्स</div>
+
+<div class="category">🫙 तेल, घी & नमक</div>
+
+<div class="category">🌶️ मसाले</div>
+
+<div class="category">🍪 बिस्कुट & स्नैक्स</div>
+
+<div class="category">🍫 चॉकलेट & मिठाई</div>
+
+<div class="category">🥤 ड्रिंक्स & पेय</div>
+
+<div class="category">🍜 इंस्टेंट & रेडी फूड</div>
+
+<div class="category">🧹 साबुन & सफाई</div>
+
+<div class="category">🧴 पर्सनल केयर</div>
+
+<div class="category">🪔 पूजा का सामान</div>
+
+<div class="category">✏️ स्टेशनरी</div>
+
+</div>
+
+
+<h2 style="margin-top:35px;">⭐ हमारे Products</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>गेहूं का आटा</h3>
+<p>5kg / 10kg</p>
+</div>
+
+<div class="product">
+<h3>चावल</h3>
+<p>विभिन्न पैक</p>
+</div>
+
+<div class="product">
+<h3>मैदा</h3>
+<p>रोज़मर्रा का सामान</p>
+</div>
+
+<div class="product">
+<h3>बेसन</h3>
+<p>विभिन्न पैक</p>
+</div>
+
+<div class="product">
+<h3>सूजी</h3>
+<p>किराना सामान</p>
+</div>
+
+<div class="product">
+<h3>पोहा</h3>
+<p>नाश्ते के लिए</p>
+</div>
+
+<div class="product">
+<h3>तुअर दाल</h3>
+<p>दालें</p>
+</div>
+
+<div class="product">
+<h3>मूंग दाल</h3>
+<p>दालें</p>
+</div>
+
+<div class="product">
+<h3>मसूर दाल</h3>
+<p>दालें</p>
+</div>
+
+<div class="product">
+<h3>चना दाल</h3>
+<p>दालें</p>
+</div>
+
+<div class="product">
+<h3>राजमा</h3>
+<p>बीन्स</p>
+</div>
+
+<div class="product">
+<h3>छोले</h3>
+<p>काबुली चना</p>
+</div>
+
+<div class="product">
+<h3>चीनी</h3>
+<p>रोज़मर्रा का सामान</p>
+</div>
+
+<div class="product">
+<h3>नमक</h3>
+<p>आयोडीनयुक्त आदि</p>
+</div>
+
+<div class="product">
+<h3>सरसों का तेल</h3>
+<p>Cooking Oil</p>
+</div>
+
+<div class="product">
+<h3>रिफाइंड तेल</h3>
+<p>Cooking Oil</p>
+</div>
+
+<div class="product">
+<h3>घी</h3>
+<p>Ghee</p>
+</div>
+
+<div class="product">
+<h3>चाय</h3>
+<p>Tea</p>
+</div>
+
+<div class="product">
+<h3>कॉफी</h3>
+<p>Coffee</p>
+</div>
+
+<div class="product">
+<h3>हल्दी पाउडर</h3>
+<p>मसाले</p>
+</div>
+
+<div class="product">
+<h3>लाल मिर्च पाउडर</h3>
+<p>मसाले</p>
+</div>
+
+<div class="product">
+<h3>धनिया पाउडर</h3>
+<p>मसाले</p>
+</div>
+
+<div class="product">
+<h3>जीरा</h3>
+<p>मसाले</p>
+</div>
+
+<div class="product">
+<h3>गरम मसाला</h3>
+<p>मसाले</p>
+</div>
+
+<div class="product">
+<h3>बिस्कुट</h3>
+<p>विभिन्न पैक</p>
+</div>
+
+<div class="product">
+<h3>नमकीन</h3>
+<p>Snacks</p>
+</div>
+
+<div class="product">
+<h3>चिप्स</h3>
+<p>Snacks</p>
+</div>
+
+<div class="product">
+<h3>कुरकुरे</h3>
+<p>Snacks</p>
+</div>
+
+<div class="product">
+<h3>चॉकलेट</h3>
+<p>विभिन्न प्रकार</p>
+</div>
+
+<div class="product">
+<h3>मैगी / नूडल्स</h3>
+<p>Instant Food</p>
+</div>
+
+<div class="product">
+<h3>पास्ता</h3>
+<p>Instant Food</p>
+</div>
+
+<div class="product">
+<h3>टोमैटो सॉस</h3>
+<p>Sauce</p>
+</div>
+
+<div class="product">
+<h3>अचार</h3>
+<p>साथ में खाने के लिए</p>
+</div>
+
+<div class="product">
+<h3>कोल्ड ड्रिंक</h3>
+<p>पेय</p>
+</div>
+
+<div class="product">
+<h3>जूस</h3>
+<p>पैक्ड जूस</p>
+</div>
+
+<div class="product">
+<h3>पैकेज्ड पानी</h3>
+<p>Drinking Water</p>
+</div>
+
+<div class="product">
+<h3>साबुन</h3>
+<p>Personal Care</p>
+</div>
+
+<div class="product">
+<h3>डिटर्जेंट पाउडर</h3>
+<p>Cleaning</p>
+</div>
+
+<div class="product">
+<h3>डिशवॉश</h3>
+<p>Cleaning</p>
+</div>
+
+<div class="product">
+<h3>फ्लोर क्लीनर</h3>
+<p>Cleaning</p>
+</div>
+
+<div class="product">
+<h3>टूथपेस्ट</h3>
+<p>Personal Care</p>
+</div>
+
+<div class="product">
+<h3>टूथब्रश</h3>
+<p>Personal Care</p>
+</div>
+
+<div class="product">
+<h3>शैंपू</h3>
+<p>Personal Care</p>
+</div>
+
+<div class="product">
+<h3>हेयर ऑयल</h3>
+<p>Personal Care</p>
+</div>
+
+<div class="product">
+<h3>अगरबत्ती</h3>
+<p>पूजा का सामान</p>
+</div>
+
+<div class="product">
+<h3>माचिस</h3>
+<p>General Item</p>
+</div>
+
+<div class="product">
+<h3>पेन & पेंसिल</h3>
+<p>Stationery</p>
+</div>
+
+</div>
+
+
+<div class="contact">
+
+<h2 style="color:white;">📞 हमसे संपर्क करें</h2>
+
+<p>Subhash Kiryana Store</p>
+
+<p>📍 Hathwala Gaon, Julana, Haryana – 126101</p>
+
+<p>
+📞 <a href="tel:9350596509">9350596509</a>
+</p>
+
+<p>
+📞 <a href="tel:9416469174">9416469174</a>
+</p>
+
+<p>
+💬 <a href="https://wa.me/919350596509?text=Namaste%20Subhash%20Kiryana%20Store%2C%20mujhe%20samaan%20chahiye.">
+WhatsApp पर सामान पूछें
+</a>
+</p>
+
+</div>
+
+</div>
+
+
+<footer>
+© 2026 Subhash Kiryana Store
+</footer>
+
+</body>
+</html>
