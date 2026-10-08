@@ -3,472 +3,206 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Subhash Kiryana Store | Hathwala, Julana</title>
-
-<meta name="description" content="Subhash Kiryana Store - Hathwala Gaon, Julana, Haryana. Grocery, राशन, snacks, drinks, personal care और रोजमर्रा का सामान.">
+<title>Subhash Kiryana Store</title>
 
 <style>
-*{
-  box-sizing:border-box;
-}
-
+*{box-sizing:border-box}
 body{
   margin:0;
   font-family:Arial,sans-serif;
-  background:#f5f7f5;
+  background:#f5f5f5;
   color:#222;
 }
-
-.hero{
-  background:linear-gradient(135deg,#087f3f,#16a05d);
+header{
+  background:#168a45;
   color:white;
-  padding:35px 18px;
   text-align:center;
+  padding:25px 15px;
 }
+header h1{margin:0 0 8px;font-size:28px}
+header p{margin:5px 0}
 
-.hero h1{
-  margin:0 0 10px;
-  font-size:32px;
-}
-
-.hero p{
-  margin:6px 0;
-  font-size:16px;
-}
-
-.buttons{
-  margin-top:20px;
-  display:flex;
-  justify-content:center;
-  gap:10px;
-  flex-wrap:wrap;
-}
-
+.buttons{margin-top:15px}
 .btn{
   display:inline-block;
-  padding:12px 20px;
-  border-radius:25px;
+  padding:11px 18px;
+  margin:5px;
+  border-radius:8px;
+  color:white;
   text-decoration:none;
   font-weight:bold;
-  background:white;
-  color:#087f3f;
 }
+.call{background:#075e54}
+.whatsapp{background:#25d366}
 
 .container{
   max-width:1000px;
   margin:auto;
-  padding:25px 15px;
+  padding:20px 12px;
 }
-
 h2{
   text-align:center;
-  color:#087f3f;
-  margin:10px 0 20px;
-}
-
-.categories{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:12px;
-}
-
-.category{
-  background:white;
-  padding:18px 10px;
-  text-align:center;
-  border-radius:12px;
-  box-shadow:0 2px 8px rgba(0,0,0,.08);
-  font-weight:bold;
+  color:#168a45;
+  margin-top:25px;
 }
 
 .products{
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(auto-fit,minmax(145px,1fr));
   gap:12px;
+  margin-top:15px;
 }
-
-.product{
+.card{
   background:white;
-  padding:15px;
-  border-radius:12px;
-  box-shadow:0 2px 8px rgba(0,0,0,.08);
+  padding:15px 10px;
+  border-radius:10px;
+  box-shadow:0 2px 7px rgba(0,0,0,.12);
+  text-align:center;
 }
-
-.product h3{
-  margin:0 0 6px;
+.card h3{
+  margin:5px 0 12px;
   font-size:16px;
 }
-
-.product p{
-  margin:0;
-  color:#666;
+.price-btn{
+  display:block;
+  background:#25d366;
+  color:white;
+  text-decoration:none;
+  padding:9px 6px;
+  border-radius:7px;
   font-size:13px;
-}
-
-.contact{
-  margin-top:25px;
-  background:#087f3f;
-  color:white;
-  padding:25px 15px;
-  text-align:center;
-  border-radius:15px;
-}
-
-.contact a{
-  color:white;
   font-weight:bold;
 }
 
 footer{
+  margin-top:25px;
+  background:#168a45;
+  color:white;
   text-align:center;
-  padding:20px;
-  color:#666;
-  font-size:13px;
-}
-
-@media(min-width:700px){
-  .categories{
-    grid-template-columns:repeat(4,1fr);
-  }
-
-  .products{
-    grid-template-columns:repeat(4,1fr);
-  }
+  padding:18px 10px;
 }
 </style>
 </head>
 
 <body>
 
-<section class="hero">
+<header>
+  <h1>Subhash Kiryana Store</h1>
+  <p>आपकी रोज़मर्रा की जरूरत का सामान</p>
 
-<h1>🛒 Subhash Kiryana Store</h1>
-
-<p>आपके घर की रोज़मर्रा की जरूरत का सामान</p>
-
-<p>📍 Hathwala Gaon, Julana, Haryana – 126101</p>
-
-<div class="buttons">
-
-<a class="btn" href="tel:9350596509">
-📞 Call Now
-</a>
-
-<a class="btn" href="https://wa.me/919350596509?text=Namaste%20Subhash%20Kiryana%20Store%2C%20mujhe%20samaan%20chahiye.">
-💬 WhatsApp
-</a>
-
-</div>
-
-</section>
-
+  <div class="buttons">
+    <a class="btn call" href="tel:+919350596509">📞 Call Now</a>
+    <a class="btn whatsapp" href="https://wa.me/919350596509" target="_blank">
+      💬 WhatsApp
+    </a>
+  </div>
+</header>
 
 <div class="container">
 
-<h2>📦 हमारी Categories</h2>
-
-<div class="categories">
-
-<div class="category">🌾 आटा, चावल & अनाज</div>
-
-<div class="category">🫘 दालें & बीन्स</div>
-
-<div class="category">🫙 तेल, घी & नमक</div>
-
-<div class="category">🌶️ मसाले</div>
-
-<div class="category">🍪 बिस्कुट & स्नैक्स</div>
-
-<div class="category">🍫 चॉकलेट & मिठाई</div>
-
-<div class="category">🥤 ड्रिंक्स & पेय</div>
-
-<div class="category">🍜 इंस्टेंट & रेडी फूड</div>
-
-<div class="category">🧹 साबुन & सफाई</div>
-
-<div class="category">🧴 पर्सनल केयर</div>
-
-<div class="category">🪔 पूजा का सामान</div>
-
-<div class="category">✏️ स्टेशनरी</div>
-
-</div>
-
-
-<h2 style="margin-top:35px;">⭐ हमारे Products</h2>
+<h2>🛒 हमारे सामान</h2>
 
 <div class="products">
 
-<div class="product">
-<h3>गेहूं का आटा</h3>
-<p>5kg / 10kg</p>
-</div>
+<script>
+const products = [
+"चावल",
+"बासमती चावल",
+"मूंग दाल",
+"मसूर दाल",
+"चना दाल",
+"उड़द दाल",
+"राजमा",
+"छोले",
+"बेसन",
+"सूजी",
 
-<div class="product">
-<h3>चावल</h3>
-<p>विभिन्न पैक</p>
-</div>
+"सरसों तेल",
+"रिफाइंड तेल",
+"घी",
+"नमक",
+"चीनी",
 
-<div class="product">
-<h3>मैदा</h3>
-<p>रोज़मर्रा का सामान</p>
-</div>
+"हल्दी",
+"लाल मिर्च",
+"धनिया",
+"गरम मसाला",
+"जीरा",
 
-<div class="product">
-<h3>बेसन</h3>
-<p>विभिन्न पैक</p>
-</div>
+"पारले-G बिस्कुट",
+"मैरी बिस्कुट",
+"क्रीम बिस्कुट",
+"नमकीन",
+"भुजिया",
+"चिप्स",
 
-<div class="product">
-<h3>सूजी</h3>
-<p>किराना सामान</p>
-</div>
+"टॉफी",
+"चॉकलेट",
 
-<div class="product">
-<h3>पोहा</h3>
-<p>नाश्ते के लिए</p>
-</div>
+"कोल्ड ड्रिंक",
+"जूस",
+"पैकेज्ड पानी",
+"चाय",
+"कॉफी",
 
-<div class="product">
-<h3>तुअर दाल</h3>
-<p>दालें</p>
-</div>
+"मैगी / नूडल्स",
+"पास्ता",
+"टोमैटो सॉस",
+"अचार",
 
-<div class="product">
-<h3>मूंग दाल</h3>
-<p>दालें</p>
-</div>
+"साबुन",
+"डिटर्जेंट",
+"डिशवॉश",
 
-<div class="product">
-<h3>मसूर दाल</h3>
-<p>दालें</p>
-</div>
+"टूथपेस्ट",
+"टूथब्रश",
+"शैम्पू",
+"हेयर ऑयल",
 
-<div class="product">
-<h3>चना दाल</h3>
-<p>दालें</p>
-</div>
+"अगरबत्ती",
+"माचिस",
+"पेन",
+"पेंसिल"
+];
 
-<div class="product">
-<h3>राजमा</h3>
-<p>बीन्स</p>
-</div>
+products.forEach(product => {
+  const message =
+    "Namaste Subhash Kiryana Store, " +
+    product +
+    " ka aaj ka bhav batayein.";
 
-<div class="product">
-<h3>छोले</h3>
-<p>काबुली चना</p>
-</div>
+  const link =
+    "https://wa.me/919350596509?text=" +
+    encodeURIComponent(message);
 
-<div class="product">
-<h3>चीनी</h3>
-<p>रोज़मर्रा का सामान</p>
-</div>
-
-<div class="product">
-<h3>नमक</h3>
-<p>आयोडीनयुक्त आदि</p>
-</div>
-
-<div class="product">
-<h3>सरसों का तेल</h3>
-<p>Cooking Oil</p>
-</div>
-
-<div class="product">
-<h3>रिफाइंड तेल</h3>
-<p>Cooking Oil</p>
-</div>
-
-<div class="product">
-<h3>घी</h3>
-<p>Ghee</p>
-</div>
-
-<div class="product">
-<h3>चाय</h3>
-<p>Tea</p>
-</div>
-
-<div class="product">
-<h3>कॉफी</h3>
-<p>Coffee</p>
-</div>
-
-<div class="product">
-<h3>हल्दी पाउडर</h3>
-<p>मसाले</p>
-</div>
-
-<div class="product">
-<h3>लाल मिर्च पाउडर</h3>
-<p>मसाले</p>
-</div>
-
-<div class="product">
-<h3>धनिया पाउडर</h3>
-<p>मसाले</p>
-</div>
-
-<div class="product">
-<h3>जीरा</h3>
-<p>मसाले</p>
-</div>
-
-<div class="product">
-<h3>गरम मसाला</h3>
-<p>मसाले</p>
-</div>
-
-<div class="product">
-<h3>बिस्कुट</h3>
-<p>विभिन्न पैक</p>
-</div>
-
-<div class="product">
-<h3>नमकीन</h3>
-<p>Snacks</p>
-</div>
-
-<div class="product">
-<h3>चिप्स</h3>
-<p>Snacks</p>
-</div>
-
-<div class="product">
-<h3>कुरकुरे</h3>
-<p>Snacks</p>
-</div>
-
-<div class="product">
-<h3>चॉकलेट</h3>
-<p>विभिन्न प्रकार</p>
-</div>
-
-<div class="product">
-<h3>मैगी / नूडल्स</h3>
-<p>Instant Food</p>
-</div>
-
-<div class="product">
-<h3>पास्ता</h3>
-<p>Instant Food</p>
-</div>
-
-<div class="product">
-<h3>टोमैटो सॉस</h3>
-<p>Sauce</p>
-</div>
-
-<div class="product">
-<h3>अचार</h3>
-<p>साथ में खाने के लिए</p>
-</div>
-
-<div class="product">
-<h3>कोल्ड ड्रिंक</h3>
-<p>पेय</p>
-</div>
-
-<div class="product">
-<h3>जूस</h3>
-<p>पैक्ड जूस</p>
-</div>
-
-<div class="product">
-<h3>पैकेज्ड पानी</h3>
-<p>Drinking Water</p>
-</div>
-
-<div class="product">
-<h3>साबुन</h3>
-<p>Personal Care</p>
-</div>
-
-<div class="product">
-<h3>डिटर्जेंट पाउडर</h3>
-<p>Cleaning</p>
-</div>
-
-<div class="product">
-<h3>डिशवॉश</h3>
-<p>Cleaning</p>
-</div>
-
-<div class="product">
-<h3>फ्लोर क्लीनर</h3>
-<p>Cleaning</p>
-</div>
-
-<div class="product">
-<h3>टूथपेस्ट</h3>
-<p>Personal Care</p>
-</div>
-
-<div class="product">
-<h3>टूथब्रश</h3>
-<p>Personal Care</p>
-</div>
-
-<div class="product">
-<h3>शैंपू</h3>
-<p>Personal Care</p>
-</div>
-
-<div class="product">
-<h3>हेयर ऑयल</h3>
-<p>Personal Care</p>
-</div>
-
-<div class="product">
-<h3>अगरबत्ती</h3>
-<p>पूजा का सामान</p>
-</div>
-
-<div class="product">
-<h3>माचिस</h3>
-<p>General Item</p>
-</div>
-
-<div class="product">
-<h3>पेन & पेंसिल</h3>
-<p>Stationery</p>
-</div>
+  document.write(`
+    <div class="card">
+      <h3>${product}</h3>
+      <a class="price-btn" href="${link}" target="_blank">
+        💬 WhatsApp पर भाव पूछें
+      </a>
+    </div>
+  `);
+});
+</script>
 
 </div>
 
+<h2>📍 हमारी दुकान</h2>
 
-<div class="contact">
-
-<h2 style="color:white;">📞 हमसे संपर्क करें</h2>
-
-<p>Subhash Kiryana Store</p>
-
-<p>📍 Hathwala Gaon, Julana, Haryana – 126101</p>
-
-<p>
-📞 <a href="tel:9350596509">9350596509</a>
+<p style="text-align:center;">
+  Hathwala Gaon, Julana, Haryana – 126101
 </p>
 
-<p>
-📞 <a href="tel:9416469174">9416469174</a>
-</p>
-
-<p>
-💬 <a href="https://wa.me/919350596509?text=Namaste%20Subhash%20Kiryana%20Store%2C%20mujhe%20samaan%20chahiye.">
-WhatsApp पर सामान पूछें
-</a>
+<p style="text-align:center;">
+  📞 9350596509 &nbsp; | &nbsp; 9416469174
 </p>
 
 </div>
-
-</div>
-
 
 <footer>
-© 2026 Subhash Kiryana Store
+  © 2026 Subhash Kiryana Store
 </footer>
 
 </body>
-</html>
+  </html>
